@@ -178,7 +178,7 @@ for arg; do
 		--vi | --vim | -v) # arg: Switch vimrc and friends.
 			set_vim
 			;;
-		--xmodmap | -x) # arg: Switch key mappings. Do this _after_ -l. TODO appears to be the other way around.
+		--xmodmap | -x) # arg: Switch key mappings. Do this _after_ -l. # TODO appears to be the other way around.
 			set_xmodmap
 			;;
 		--state | -st) #arg: Print the current status.

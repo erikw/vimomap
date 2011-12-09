@@ -22,7 +22,6 @@ state_read() {
 
 state_save() {
 	rm -f $state_file
-	touch $state_file
 	for key in "${!states[@]}";
 	do
 		echo "$key=${states[$key]}" >> $state_file
